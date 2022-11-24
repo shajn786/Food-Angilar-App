@@ -8,6 +8,7 @@ import { FoodLoginComponent } from './food-login/food-login.component';
 import { FoodRegisterComponent } from './food-register/food-register.component';
 import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
 import { FoodContactUsComponent } from './food-contact-us/food-contact-us.component';
+import { FoodNavbarComponent } from './food-navbar/food-navbar.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FoodContactUsComponent } from './food-contact-us/food-contact-us.compon
     FoodRegisterComponent,
     FoodViewAllComponent,
     FoodContactUsComponent,
+    FoodNavbarComponent,
     
   ],
   imports: [
