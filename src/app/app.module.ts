@@ -9,7 +9,25 @@ import { FoodRegisterComponent } from './food-register/food-register.component';
 import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
 import { FoodContactUsComponent } from './food-contact-us/food-contact-us.component';
 import { FoodNavbarComponent } from './food-navbar/food-navbar.component';
+import { RouterModule, Routes } from '@angular/router';
 
+const myRoutes:Routes=[
+  {
+    path:"",component:FoodIndexComponent
+  },
+  {
+    path:"login",component:FoodLoginComponent
+  },
+  {
+    path:"register",component:FoodRegisterComponent
+  },
+  {
+    path:"viewall",component:FoodViewAllComponent
+  },
+  {
+    path:"contactus",component:FoodContactUsComponent
+  }
+]
 
 @NgModule({
   declarations: [
@@ -24,7 +42,8 @@ import { FoodNavbarComponent } from './food-navbar/food-navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(myRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
