@@ -7,6 +7,8 @@ import { FoodIndexComponent } from './food-index/food-index.component';
 import { FoodLoginComponent } from './food-login/food-login.component';
 import { FoodRegisterComponent } from './food-register/food-register.component';
 import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
+import { FoodContactUsComponent } from './food-contact-us/food-contact-us.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
     FoodIndexComponent,
     FoodLoginComponent,
     FoodRegisterComponent,
-    FoodViewAllComponent
+    FoodViewAllComponent,
+    FoodContactUsComponent,
+    
   ],
   imports: [
     BrowserModule,
