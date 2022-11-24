@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FoodIndexComponent } from './food-index/food-index.component';
 import { FoodLoginComponent } from './food-login/food-login.component';
 import { FoodRegisterComponent } from './food-register/food-register.component';
+import { FoodViewAllComponent } from './food-view-all/food-view-all.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FoodIndexComponent,
     FoodLoginComponent,
-    FoodRegisterComponent
+    FoodRegisterComponent,
+    FoodViewAllComponent
   ],
   imports: [
     BrowserModule,
