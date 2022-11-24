@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FoodOrderingIndexComponent } from './food-ordering-index/food-ordering-index.component';
+import { FoodIndexComponent } from './food-index/food-index.component';
+import { FoodLoginComponent } from './food-login/food-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FoodOrderingIndexComponent
+    FoodIndexComponent,
+    FoodLoginComponent
   ],
   imports: [
     BrowserModule,
